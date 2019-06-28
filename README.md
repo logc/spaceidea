@@ -16,10 +16,10 @@ In IntelliJ Idea:
 ## Available Keymaps
 
 ### Search
-| Keymap           | Action           | Notes                                                     |
-|------------------|------------------|-----------------------------------------------------------|
-| `<space>`/       | FindInPath       | Similar to grepping over the whole project                |
-| `<space><space>` | SearchEverywhere | Already mapped to double right <shift> but this is faster |
+| Keymap           | Action           | Notes                                                       |
+|------------------|------------------|-------------------------------------------------------------|
+| `<space>`/       | FindInPath       | Similar to grepping over the whole project                  |
+| `<space><space>` | SearchEverywhere | Already mapped to double right `<shift>` but this is faster |
 
 ### Files
 | Keymap      | Action  | Notes                                          |
@@ -67,3 +67,5 @@ In IntelliJ Idea:
 |-------------|-----------------------------------|------------------------------|
 | `<space>`rr | Refactorings.QuickListPopupAction |                              |
 | `<space>`ri | ShowIntentionActions              | Does the same as 'alt-Enter' |
+
+
