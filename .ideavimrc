@@ -1,0 +1,38 @@
+# Search
+nnoremap <space>/  :action FindInPath<cr>
+nnoremap <space><space> :action SearchEverywhere<cr>
+
+# Files
+nnoremap <space>fs :action SaveAll<cr>
+
+# Go Places
+# gd goes to definition by default
+nnoremap gT :action GotoTest<cr>
+nnoremap gi :action GotoImplementation<cr>
+nnoremap gn :action GotoNextError<cr>
+nnoremap gp :action GotoPreviousError<cr>
+nnoremap gr :action PreviousTab<cr>
+nnoremap gt :action NextTab<cr>
+nnoremap gu :action ShowUsages<cr>
+
+# Open
+nnoremap <space>oo :action MoveEditorToOppositeTabGroup<cr>
+
+# Windows (Tabs)
+nnoremap <space>wd :action CloseContent<cr>
+nnoremap <space>wj :action VimWindowDown<cr>
+nnoremap <space>ws :action SplitHorizontally<cr>
+nnoremap <space>wu :action Unsplit<cr>
+nnoremap <space>wv :action SplitVertically<cr>
+nnoremap <space>ww :action VimWindowNext<cr>
+nnoremap <space>wl :action VimWindowRight<cr>
+nnoremap <space>wh :action VimWindowLeft<cr>
+nnoremap <space>wk :action VimWindowUp<cr>
+nnoremap <space>wj :action VimWindowDown<cr>
+
+# Comments
+nnoremap <space>cl :action CommentByLineComment<cr>
+
+# Refactor
+nnoremap <space>rr :action Refactorings.QuickListPopupAction<cr>
+nnoremap <space>ri :action ShowIntentionActions<cr>
