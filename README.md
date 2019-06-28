@@ -1,4 +1,4 @@
-# spaceidea: A configuration for IdeaVim that makes it work like Spacemacs
+# A configuration for IdeaVim that makes it work like Spacemacs
 
 ## Installation
 
