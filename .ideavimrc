@@ -39,3 +39,6 @@ nnoremap <space>cl :action CommentByLineComment<cr>
 # Refactor
 nnoremap <space>rr :action Refactorings.QuickListPopupAction<cr>
 nnoremap <space>ri :action ShowIntentionActions<cr>
+
+# Types
+nnoremap <space>ti :action Scala.TypeInfo<cr>

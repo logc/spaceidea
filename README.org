@@ -1,0 +1,124 @@
+* A configuration for IdeaVim that makes it work like Spacemacs
+  :PROPERTIES:
+  :CUSTOM_ID: a-configuration-for-ideavim-that-makes-it-work-like-spacemacs
+  :END:
+
+** Installation
+   :PROPERTIES:
+   :CUSTOM_ID: installation
+   :END:
+
+#+BEGIN_EXAMPLE
+  git clone https://github.com/logc/spaceidea.git ./spaceidea
+  ln -s ./spaceidea/.ideavimrc ~/.ideavimrc
+#+END_EXAMPLE
+
+In IntelliJ Idea (not needed if starting or restarting):
+
+#+BEGIN_EXAMPLE
+  :source ~/.ideavimrc
+#+END_EXAMPLE
+
+** Available Keymaps
+   :PROPERTIES:
+   :CUSTOM_ID: available-keymaps
+   :END:
+
+*** Search
+    :PROPERTIES:
+    :CUSTOM_ID: search
+    :END:
+
+| Keymap             | Action             | Notes                                                         |
+|--------------------+--------------------+---------------------------------------------------------------|
+| =<space>=/         | FindInPath         | Similar to grepping over the whole project                    |
+| =<space><space>=   | SearchEverywhere   | Already mapped to double right =<shift>= but this is faster   |
+
+*** Files
+    :PROPERTIES:
+    :CUSTOM_ID: files
+    :END:
+
+| Keymap        | Action    | Notes                                            |
+|---------------+-----------+--------------------------------------------------|
+| =<space>=fs   | SaveAll   | There is no save for a single file, apparently   |
+
+*** Go Places
+    :PROPERTIES:
+    :CUSTOM_ID: go-places
+    :END:
+
+| Keymap   | Action                               | Notes                                                   |
+|----------+--------------------------------------+---------------------------------------------------------|
+| gd       | go to definition, already built-in   |                                                         |
+| gT       | GotoTest                             |                                                         |
+| gi       | GotoImplementation                   |                                                         |
+| gn       | GotoNextError                        | Next compilation error within file                      |
+| gp       | GotoPreviousError                    | Prev compilation error within file                      |
+| gr       | PreviousTab                          | This is a personal choice, because 'r' is 'left of t'   |
+| gt       | NextTab                              |                                                         |
+| gu       | ShowUsages                           |                                                         |
+
+*** Git
+    :PROPERTIES:
+    :CUSTOM_ID: git
+    :END:
+
+| Keymap        | Action                 | Notes   |
+|---------------+------------------------+---------|
+| =<space>=gC   | Git.ResolveConflicts   |         |
+
+*** Open
+    :PROPERTIES:
+    :CUSTOM_ID: open
+    :END:
+
+| Keymap        | Action                         |
+|---------------+--------------------------------|
+| =<space>=oo   | MoveEditorToOppositeTabGroup   |
+
+*** Windows (Tabs)
+    :PROPERTIES:
+    :CUSTOM_ID: windows-tabs
+    :END:
+
+| Keymap        | Action              | Notes                                     |
+|---------------+---------------------+-------------------------------------------|
+| =<space>=wd   | CloseContent        | 'Window delete', closes the current tab   |
+| =<space>=wj   | VimWindowDown       |                                           |
+| =<space>=ws   | SplitHorizontally   |                                           |
+| =<space>=wu   | Unsplit             |                                           |
+| =<space>=wv   | SplitVertically     |                                           |
+| =<space>=ww   | VimWindowNext       | Nice to cycle through windows             |
+| =<space>=wl   | VimWindowRight      |                                           |
+| =<space>=wh   | VimWindowLeft       |                                           |
+| =<space>=wk   | VimWindowUp         |                                           |
+| =<space>=wj   | VimWindowDown       |                                           |
+
+*** Comments
+    :PROPERTIES:
+    :CUSTOM_ID: comments
+    :END:
+
+| Keymap        | Action                 |
+|---------------+------------------------|
+| =<space>=cl   | CommentByLineComment   |
+
+*** Refactor
+    :PROPERTIES:
+    :CUSTOM_ID: refactor
+    :END:
+
+| Keymap        | Action                              | Notes                          |
+|---------------+-------------------------------------+--------------------------------|
+| =<space>=rr   | Refactorings.QuickListPopupAction   |                                |
+| =<space>=ri   | ShowIntentionActions                | Does the same as 'alt-Enter'   |
+
+*** Types
+    :PROPERTIES:
+    :CUSTOM_ID: types
+    :END:
+
+| Keymap      | Action         | Notes |
+|-------------+----------------+-------|
+| =<space>=ti | Scala.TypeInfo |       |
