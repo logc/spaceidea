@@ -7,7 +7,7 @@ git clone https://github.com/logc/spaceidea.git ./spaceidea
 ln -s ./spaceidea/.ideavimrc ~/.ideavimrc
 ```
 
-In IntelliJ Idea:
+In IntelliJ Idea (not needed if starting or restarting):
 
 ```
 :source ~/.ideavimrc
@@ -28,7 +28,7 @@ In IntelliJ Idea:
 
 ### Go Places
 | Keymap | Action                             | Notes                                                 |
-|--------+------------------------------------+-------------------------------------------------------|
+|--------|------------------------------------|-------------------------------------------------------|
 | gd     | go to definition, already built-in |                                                       |
 | gT     | GotoTest                           |                                                       |
 | gi     | GotoImplementation                 |                                                       |
