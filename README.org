@@ -31,8 +31,8 @@ In IntelliJ Idea (not needed if starting or restarting):
 
 | Keymap             | Action             | Notes                                                         |
 |--------------------+--------------------+---------------------------------------------------------------|
-| =<space>=/         | FindInPath         | Similar to grepping over the whole project                    |
-| =<space><space>=   | SearchEverywhere   | Already mapped to double right =<shift>= but this is faster   |
+| =<space>= /        | FindInPath         | Similar to grepping over the whole project                    |
+| =<space>= =<space>= | SearchEverywhere   | Already mapped to double right =<shift>= but this is faster   |
 
 *** Files
     :PROPERTIES:
@@ -41,7 +41,7 @@ In IntelliJ Idea (not needed if starting or restarting):
 
 | Keymap        | Action    | Notes                                            |
 |---------------+-----------+--------------------------------------------------|
-| =<space>=fs   | SaveAll   | There is no save for a single file, apparently   |
+| =<space>= fs  | SaveAll   | There is no save for a single file, apparently   |
 
 *** Go Places
     :PROPERTIES:
@@ -66,7 +66,7 @@ In IntelliJ Idea (not needed if starting or restarting):
 
 | Keymap        | Action                 | Notes   |
 |---------------+------------------------+---------|
-| =<space>=gC   | Git.ResolveConflicts   |         |
+| =<space>= gC  | Git.ResolveConflicts   |         |
 
 *** Open
     :PROPERTIES:
@@ -75,7 +75,7 @@ In IntelliJ Idea (not needed if starting or restarting):
 
 | Keymap        | Action                         |
 |---------------+--------------------------------|
-| =<space>=oo   | MoveEditorToOppositeTabGroup   |
+| =<space>= oo  | MoveEditorToOppositeTabGroup   |
 
 *** Windows (Tabs)
     :PROPERTIES:
@@ -84,16 +84,16 @@ In IntelliJ Idea (not needed if starting or restarting):
 
 | Keymap        | Action              | Notes                                     |
 |---------------+---------------------+-------------------------------------------|
-| =<space>=wd   | CloseContent        | 'Window delete', closes the current tab   |
-| =<space>=wj   | VimWindowDown       |                                           |
-| =<space>=ws   | SplitHorizontally   |                                           |
-| =<space>=wu   | Unsplit             |                                           |
-| =<space>=wv   | SplitVertically     |                                           |
-| =<space>=ww   | VimWindowNext       | Nice to cycle through windows             |
-| =<space>=wl   | VimWindowRight      |                                           |
-| =<space>=wh   | VimWindowLeft       |                                           |
-| =<space>=wk   | VimWindowUp         |                                           |
-| =<space>=wj   | VimWindowDown       |                                           |
+| =<space>= wd  | CloseContent        | 'Window delete', closes the current tab   |
+| =<space>= wj  | VimWindowDown       |                                           |
+| =<space>= ws  | SplitHorizontally   |                                           |
+| =<space>= wu  | Unsplit             |                                           |
+| =<space>= wv  | SplitVertically     |                                           |
+| =<space>= ww  | VimWindowNext       | Nice to cycle through windows             |
+| =<space>= wl  | VimWindowRight      |                                           |
+| =<space>= wh  | VimWindowLeft       |                                           |
+| =<space>= wk  | VimWindowUp         |                                           |
+| =<space>= wj  | VimWindowDown       |                                           |
 
 *** Comments
     :PROPERTIES:
@@ -102,7 +102,7 @@ In IntelliJ Idea (not needed if starting or restarting):
 
 | Keymap        | Action                 |
 |---------------+------------------------|
-| =<space>=cl   | CommentByLineComment   |
+| =<space>= cl  | CommentByLineComment   |
 
 *** Refactor
     :PROPERTIES:
@@ -111,8 +111,8 @@ In IntelliJ Idea (not needed if starting or restarting):
 
 | Keymap        | Action                              | Notes                          |
 |---------------+-------------------------------------+--------------------------------|
-| =<space>=rr   | Refactorings.QuickListPopupAction   |                                |
-| =<space>=ri   | ShowIntentionActions                | Does the same as 'alt-Enter'   |
+| =<space>= rr  | Refactorings.QuickListPopupAction   |                                |
+| =<space>= ri  | ShowIntentionActions                | Does the same as 'alt-Enter'   |
 
 *** Types
     :PROPERTIES:
@@ -121,4 +121,4 @@ In IntelliJ Idea (not needed if starting or restarting):
 
 | Keymap      | Action         | Notes |
 |-------------+----------------+-------|
-| =<space>=ti | Scala.TypeInfo |       |
+| =<space>= ti | Scala.TypeInfo |       |
