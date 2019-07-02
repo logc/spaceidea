@@ -28,12 +28,12 @@ In IntelliJ Idea:
 
 ### Go Places
 | Keymap | Action                             | Notes                                                 |
-|--------|------------------------------------|-------------------------------------------------------|
+|--------+------------------------------------+-------------------------------------------------------|
 | gd     | go to definition, already built-in |                                                       |
 | gT     | GotoTest                           |                                                       |
 | gi     | GotoImplementation                 |                                                       |
-| gn     | GotoNextError                      |                                                       |
-| gp     | GotoPreviousError                  |                                                       |
+| gn     | GotoNextError                      | Next compilation error within file                    |
+| gp     | GotoPreviousError                  | Prev  compilation error within file                   |
 | gr     | PreviousTab                        | This is a personal choice, because 'r' is 'left of t' |
 | gt     | NextTab                            |                                                       |
 | gu     | ShowUsages                         |                                                       |
