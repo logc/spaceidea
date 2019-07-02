@@ -38,6 +38,11 @@ In IntelliJ Idea:
 | gt     | NextTab                            |                                                       |
 | gu     | ShowUsages                         |                                                       |
 
+### Git
+| Keymap      | Action               | Notes |
+|-------------|----------------------|-------|
+| `<space>`gC | Git.ResolveConflicts |       |
+
 ### Open
 | Keymap      | Action                       |
 |-------------|------------------------------|

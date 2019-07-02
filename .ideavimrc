@@ -15,6 +15,9 @@ nnoremap gr :action PreviousTab<cr>
 nnoremap gt :action NextTab<cr>
 nnoremap gu :action ShowUsages<cr>
 
+# Git
+nnoremap <space>gC :action Git.ResolveConflicts<cr>
+
 # Open
 nnoremap <space>oo :action MoveEditorToOppositeTabGroup<cr>
 
