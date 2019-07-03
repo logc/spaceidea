@@ -119,6 +119,6 @@ In IntelliJ Idea (not needed if starting or restarting):
     :CUSTOM_ID: types
     :END:
 
-| Keymap      | Action         | Notes |
-|-------------+----------------+-------|
+| Keymap       | Action         | Notes |
+|--------------+----------------+-------|
 | =<space>= ti | Scala.TypeInfo |       |
