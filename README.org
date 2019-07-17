@@ -64,9 +64,10 @@ In IntelliJ Idea (not needed if starting or restarting):
     :CUSTOM_ID: git
     :END:
 
-| Keymap        | Action                 | Notes   |
-|---------------+------------------------+---------|
-| =<space>= gC  | Git.ResolveConflicts   |         |
+| Keymap       | Action                           | Notes                                    |
+|--------------+----------------------------------+------------------------------------------|
+| =<space>= gC | Git.ResolveConflicts             |                                          |
+| =<space>= gg | ActivateVersionControlToolWindow | Would be the same for other VCS, too ... |
 
 *** Open
     :PROPERTIES:

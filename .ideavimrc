@@ -17,6 +17,7 @@ nnoremap gu :action ShowUsages<cr>
 
 # Git
 nnoremap <space>gC :action Git.ResolveConflicts<cr>
+nnoremap <space>gg :action ActivateVersionControlToolWindow<cr>
 
 # Open
 nnoremap <space>oo :action MoveEditorToOppositeTabGroup<cr>
