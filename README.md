@@ -4,7 +4,7 @@
 
 ```
 git clone https://github.com/logc/spaceidea.git ./spaceidea
-ln -s ./spaceidea/.ideavimrc ~/.ideavimrc
+ln -s $PWD/spaceidea/.ideavimrc ~/.ideavimrc
 ```
 
 In IntelliJ Idea (not needed if starting or restarting):
