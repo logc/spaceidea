@@ -1,3 +1,17 @@
+set ideajoin
+set which-key
+set notimeout
+
+let g:WhichKey_ShowVimActions   = "true"
+let g:WhichKeyDesc_file         = "<Space>f  File"
+let g:WhichKeyDesc_git          = "<Space>g  Git"
+let g:WhichKeyDesc_open         = "<Space>o  Open"
+let g:WhichKeyDesc_test         = "<Space>t  Test"
+let g:WhichKeyDesc_refactor     = "<Space>r  Refactor"
+let g:WhichKeyDesc_windows      = "<Space>w  Windows"
+let g:WhichKeyDesc_comments     = "<Space>c  Comments"
+let g:WhichKeyDesc_types        = "<Space>T  Types"
+
 # Search
 nnoremap <space>/  :action FindInPath<cr>
 nnoremap <space><space> :action SearchEverywhere<cr>
@@ -13,14 +27,27 @@ nnoremap gn :action GotoNextError<cr>
 nnoremap gp :action GotoPreviousError<cr>
 nnoremap gr :action PreviousTab<cr>
 nnoremap gt :action NextTab<cr>
-nnoremap gu :action ShowUsages<cr>
+nnoremap gb :action Back<cr>
 
 # Git
+nnoremap <space>gg :action Vcs.QuickListPopupAction<cr>
 nnoremap <space>gC :action Git.ResolveConflicts<cr>
-nnoremap <space>gg :action ActivateVersionControlToolWindow<cr>
+nnoremap <space>gw :action ActivateVersionControlToolWindow<cr>
 
-# Open
+# Open / Menu
+nnoremap <space>om :action ShowPopupMenu<cr>
 nnoremap <space>oo :action MoveEditorToOppositeTabGroup<cr>
+
+# Run
+nnoremap <space>R :action RunClass<cr>
+
+# Test
+nnoremap <space>tt :action RerunTests<cr>
+nnoremap <space>tf :action RerunFailedTests<cr>
+
+# Refactor
+nnoremap <space>rr :action Refactorings.QuickListPopupAction<cr>
+nnoremap <space>ri :action ShowIntentionActions<cr>
 
 # Windows (Tabs)
 nnoremap <space>wd :action CloseContent<cr>
@@ -35,11 +62,7 @@ nnoremap <space>wj <C-w>j
 
 # Comments
 nnoremap <space>cl :action CommentByLineComment<cr>
-
-# Refactor
-nnoremap <space>rr :action Refactorings.QuickListPopupAction<cr>
-nnoremap <space>ri :action ShowIntentionActions<cr>
+nnoremap <space>cL :action CommentByBlockComment<cr>
 
 # Types
-nnoremap <space>ti :action Scala.TypeInfo<cr>
-set ideajoin
+nnoremap <space>Ti :action Scala.TypeInfo<cr>
